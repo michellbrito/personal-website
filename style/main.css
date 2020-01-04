@@ -1,342 +1,142 @@
-body { 
+/* global */
+@import url("https://fonts.googleapis.com/css?family=Roboto");
 
-	max-width: 960px;
-	margin: auto;
-	font-family: Century Gothic;
-
- }
-
-
-
-/* Icon Editing CSS */
-
-#meicon {
-
-	background-image: url("../images/circle-1.png"); 
-	background-repeat: no-repeat;
-	background-size: 120px 120px;
-	width: 120px;
-	height: 120px;
-	margin: auto;
-	margin-top: 30px;
-
+.grid-2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
 }
 
-#profileinfoicon { 
-
-	background-image: url("../images/head.png"), url("../images/line.png");
-	background-repeat: no-repeat;
-	background-size: 30px 30px, 801px 2px;
-	background-position: 5px 22px, 170px 38px;
-	padding: 2px;
-
- }
-
-
-#contactinfoicon { 
-
-	background-image: url("../images/phone.png"), url("../images/line.png");
-	background-repeat: no-repeat;
-	background-size: 30px 30px, 801px 2px;
-	background-position: 5px 22px, 180px 38px;
-	padding: 2px;
-
- }
-
-
-#skillsinfoicon { 
-
- 	background-image: url("../images/bulb.png"), url("../images/line.png");
- 	background-repeat: no-repeat;
-	background-size: 30px 30px, 801px 2px;
-	background-position: 5px 22px, 160px 38px;
-	padding: 2px;
-
- }
-
-#educationinfoicon { 
-
-	background-image: url("../images/star.png"), url("../images/line.png");
-	background-repeat: no-repeat;
-	background-size: 30px 30px, 801px 2px;
-	background-position: 5px 22px, 200px 38px;
-	padding: 2px;
-
- }
-
-
-#experienceinfoicon { 
-
-	background-image: url("../images/suitcase.png"), url("../images/line.png");
-	background-repeat: no-repeat;
-	background-size: 30px 30px, 801px 2px;
-	background-position: 5px 22px, 220px 38px;
-	padding: 2px;
-
- }
-
-#softwareinfoicon { 
-
-	background-image: url("../images/computer.png"), url("../images/line.png");
-	background-repeat: no-repeat;
-	background-size: 30px 30px, 801px 2px;
-	background-position: 5px 22px, 200px 38px;
-	padding: 2px;
-
- }
-
-
-
-/* Text Editing CSS */
-
-h2 { 
-
-	color: #168CD4;
-
- }
-
-h3 {
-
- 	color: #287CC9;
- 	
- }
-
-a:link {
-
- 	text-decoration: none;
- 	color: black;
-
- }
-
-#Name {
-
- 	text-align: center;
- 	font-size: larger;
- 	color: #808080;
- 	text-transform: uppercase;
- 	
- }
-
-#lastname {
-
- 	text-align: center;
- 	font-size: xx-large;
- 	text-transform: uppercase;
- 	margin: 0;
-
- }
-
-#profession {
-
- 	text-align: center;
- 	font-size: small;
- 	margin: 0;
-
- }
-
- #contactinfoicon p, h2, #profileinfoicon p, h2 { 
-
-	padding-left: 42px;
-
- }
-
- .skills { 
-
- 	text-align: center;
-
- }
-
- .listcircle { 
-
- 	padding-left: 47px;
-
- }
-
-.softwareprogress { 
-
-	padding-left: 42px;
-	margin: 0px;
-
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  background-color: #1d1e22;
+  color: #7a7c80;
 }
 
-.companyname, .date {
-
-	display: inline;
-	line-height: 28px;
-	vertical-align: top;
-	margin-left: 12px;
-
+h2,
+.white {
+  color: rgb(194, 207, 252);
 }
 
-.bold {
+a {
+  color: #7a7c80;
+  text-decoration: none;
+}
+/* section 1 */
+.section-1 {
+  margin-top: -100px;
+  padding-top: 40vh;
+  padding-left: 20vw;
+  text-align: center;
+}
 
- 	font-weight: bold;
- 	margin: 0;
- 	margin-top: 7px;
- 	margin-left: 12px;
+.section-1 p {
+  font-size: 1.1rem;
+  padding-bottom: 10px;
+  margin: 0;
+}
 
- }
+.section-1 h2 {
+  font-size: 1.7rem;
+  margin-bottom: 10px;
+}
 
- .unbold { 
- 	margin: 0;
- 	margin-bottom: 10px;
- 	margin-right: 40px;
- 	margin-left: 12px;
+.section-1 a {
+  font-size: 1.5rem;
+  padding: 10px;
+}
+/* section 2 */
+.section-2 {
+  margin-top: -50px;
+  padding-top: 15vh;
+  width: 70%;
+}
 
+.section-2 h2 {
+  font-size: 1.7rem;
+  margin-bottom: 10px;
+}
+
+.section-2 p {
+  font-size: 1.1rem;
+  padding-bottom: 10px;
+  margin: 0;
+}
+
+.section-2 a {
+  display: block;
+  font-size: 1.2rem;
+  padding-left: 0;
+  width: 200px;
+}
+/* animations / utilities */
+.section-2 a:hover {
+  color: #fff;
+  cursor: pointer;
+  
+}
+
+.section-1 a:hover {
+  color: #fff;
+  cursor: pointer;
+  
+}
+
+.white:hover {
+  position: relative;
+  padding-left: 10px;
+}
+
+.circular--landscape {
+  display: inline-block;
+  position: relative;
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.circular--landscape img {
+  width: auto;
+  height: 100%;
+  margin-left: -75px;
+}
+
+mark {
+  background-color: rgb(194, 207, 252);
+  
+  
+}
+
+/* media queres */
+@media (max-width: 780px) {
+  .grid-2 {
+    grid-template-columns: 1fr;
+  }
+  .section-1 {
+    margin-top: 5px;
+    padding: 0;
+    padding-top: 5rem;
+  }
+  .section-2 {
+    padding: 0;
+    padding-left: 1.5rem;
+    padding-top: 2rem;
   }
 
-
-.skillscenter { 
-
-	list-style: none;
-	margin-left: 5px;
-
-}
-
-.softwarebullet {
-
-	list-style: none;
-	margin: 0px;
-
-}
-
-
-/* Software  Bar */
-
-.softwarewrap {
-
- 	width: 100%;
- 	margin-left: 2px;
- 	margin-bottom: 10px;
-
- }
-
-.photoshopillustrator,.dreamweaver,.htmlcss,.javascriptangularnode {
-
- 	width: 915px;
- 	background-color: #CCCCCC;
- 	margin-right: 42px;
-
- 	
- }
-
-.photoshopillustratorfill { 
-
-	display: block;
-	height: 25px;
-	background-color: #208ADC;
-	width: 50%;
-	
-
-}
-
-.dreamweaverfill { 
-
-	display: block;
-	height: 25px;
-	background-color: #208ADC;
-	width: 20%;
-
- }
-
-.htmlcssfill { 
-
- 	display: block;
-	height: 25px;
-	background-color: #208ADC;
-	width: 80%;
-	
+  .circular--landscape {
+    display: inline-block;
+    position: relative;
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+    border-radius: 50%;
   }
 
-.javascriptangularnodefill { 
-
- 	display: block;
-	height: 25px;
-	background-color: #208ADC;
-	width: 75%;
-
+  .circular--landscape img {
+    width: auto;
+    height: 100%;
+    margin-right: -60px;
   }
-
-
-/* Skills Bar */
-
-.unfill { 
-
-	background-image: url("../images/circle-3.png");
-	background-repeat: no-repeat;
-	background-size: 915px 15px, 915px 15px;
-	width: 915px;
-	height: 15px ;
-	
 }
-
-#creativefill { 
-
-	background-image: url("../images/circle-4.png");
-	background-repeat: no-repeat;
-	background-size: 915px 15px, 915px 15px;
-	width: 413px;
-	height: 15px ;
-	margin-top: -15px;
-	margin-right: 40px;
-	
-}
-
-#teamworkfill { 
-
-	background-image: url("../images/circle-4.png");
-	background-repeat: no-repeat;
-	background-size: 915px 15px, 915px 15px;
-	width: 556px;
-	height: 15px ;
-	margin-top: -15px;
-	margin-right: 40px;
-	
-}
-
-#innovatefill {
-
-	background-image: url("../images/circle-4.png");
-	background-repeat: no-repeat;
-	background-size: 915px 15px, 915px 15px;
-	width: 503px;
-	height: 15px ;
-	margin-top: -15px;
-	margin-right: 40px;
-	
-}
-
-#communicationfill { 
-
-	background-image: url("../images/circle-4.png");
-	background-repeat: no-repeat;
-	background-size: 915px 15px, 915px 15px;
-	width: 358px;
-	height: 15px ;
-	margin-top: -15px;
-	margin-right: 40px;
-
-}
-
-
-/* Custom Bullet Points */
-
-#educationinfoicon li {
-	
-	list-style: none;
- 	background-image: url("../images/circle-2.png");
- 	background-repeat: no-repeat;
- 	background-position: 0px 10px;
- 	background-size: 7px;
-
-}
-
-#experienceinfoicon li {
-
- 	list-style: none;
- 	background-image: url("../images/circle-2.png");
- 	background-repeat: no-repeat;
- 	background-position: 0px 10px;
- 	background-size: 7px;
- 
- }

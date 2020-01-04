@@ -1,169 +1,66 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <meta charset="UTF-8">
-    <title>My Resume</title>
-    <link rel="stylesheet" type="text/css" href="style/main.css">
-</head>
-<body>
-    <article>
-        <header>
-        	<div id="meicon"></div>
-            <h1 id="Name">michell</h1>
-            <h1 id="lastname">brito</h1>
-            <p id="profession"><strong>Graphic Designer</strong></p>
-        </header>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.4.1/css/all.css"
+      integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style/main.css" />
+    <title>Michell Brito</title>
+  </head>
+  <body>
+    <div class="grid-2">
+      <div class="section-1">
+        <div class="circular--landscape">
+          <img src="images/me.jpg" />
+        </div>
+        <h2>Michell Brito</h2>
+        <a href="https://github.com/michellbrito" target="_blank"
+          ><i class="fab fa-github"></i
+        ></a>
+        <a href="https://www.linkedin.com/in/michell-brito/" target="_blank"
+          ><i class="fab fa-linkedin"></i
+        ></a>
+        <a href="https://twitter.com/michelldbrito" target="_blank"
+          ><i class="fab fa-twitter"></i
+        ></a>
+        <a href="https://medium.com/@michellbrito" target="_blank">
+          <i class="fab fa-medium"></i
+        ></a>
+        <a href="mailto:michellbp@msn.com" target="_blank"
+          ><i class="far fa-envelope"></i
+        ></a>
+      </div>
+      <div class="section-2">
+        <h2><span>👋</span> Hi, welcome to my site</h2>
+        <p>
+          <span>📚</span>I'm currentely studying <mark>computer science</mark> at Texas A&M University.<br>
+          <span>👩‍💻</span>Previosuly I've interned at <mark>Adobe</mark>, and <mark>Meredith</mark> as a software enginner.<br>
+          <span>🤍</span>quisquam! Magnam dolore iusto cumque. Nostrum error iste neque
+          maiores.
+        </p>
+        <h2>Skills</h2>
+        <p>I have experience in the following programming languages</p>
+        <ul class="fa-ul">
+          <li><i class="fa-li fab fa-js-square"></i>JavaScript (nodejs, reactjs)</li>
+          <li><i class="fa-li fab fa-python"></i>Python</li>
+          <li><i class="fa-li fas fa-database"></i>SQL (mysql, firebase)</li>
+          <li><i class="fa-li fab fa-html5"></i>HTML</li>
+          <li><i class="fa-li fab fa-css3-alt"></i>CSS</li>
+        </ul>
 
-        <section id="profileinfoicon">  	
-            <h2>PROFILE</h2>
-            <p id="profileinfo">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam aliquet, ante in semper gravida, nisl dui lobortis eros, eu sagittis urna tellus et arcu. Praesent sed viverra velit. Integer erat enim, cursus vel suscipit rutrum, dictum quis nisl. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam aliquet, ante in semper gravida, nisl dui lobortis eros, eu sagittis urna tellus et arcu. Praesent sed viverra velit. Integer erat enim, cursus vel suscipit rutrum, dictum quis nisl.</p>
-        </section>
-
-        <footer id="contactinfoicon">
-            <h2 id="contactheader">CONTACT</h2>
-            <p><em><strong>Address</strong> Main Street, City</em></p>
-            <p id="link"><em><strong>E-mail</strong> <a href="mailto:contact@domain.com" title="contact@domain.com">contact@domain.com</a></em></p>
-            <p><em><strong>Phone</strong> 555-555-5555</em></p>
-            <p><em><strong>Website</strong> <a href="http://www.yourweb.com" title="My website">www.yourweb.com</a></em></p>
-        </footer>
-
-        <section id="skillsinfoicon">
-            <h2>SKILLS</h2>
-            <ul class="skillscenter">
-                <li>
-                    <p class="skills"><strong>CREATIVE</strong></p>
-                    <div class="unfill"></div>
-                    <div id="creativefill"></div>
-
-                </li>
-            </ul>
-
-            <ul class="skillscenter">
-                <li>
-                    <p class="skills"><strong>TEAMWORK</strong></p>
-                    <div class="unfill"></div>
-                    <div id="teamworkfill"></div>
-                </li>
-            </ul>
-                
-            <ul class="skillscenter">
-                <li>
-                    <p class="skills"><strong>INNOVATE</strong></p>
-                    <div class="unfill"></div>
-                    <div id="innovatefill"></div>
-                </li>
-            </ul>
-
-           <ul class="skillscenter">
-                <li>
-                    <p class="skills"><strong>COMMUNICATION</strong></p>
-                    <div class="unfill"></div>
-                    <div id="communicationfill"></div>
-                </li>
-            </ul>
-
-        </section>
-
-        <section id="educationinfoicon">
-            <h2>EDUCATION</h2>
-            <ul class="listcircle">
-                <li>
-                    <h3 class="companyname">PROFESSIONAL CERTIFICATION</h3>
-                    <p class="date">//Feb 1996 - Jun 1997</p>
-                    <p class="bold">University Name </p>
-                    <p class="unbold"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam aliquet, ante in semper gravida, nisl dui lobortis eros, eu sagittis urna tellus et arcu. Praesent sed viverra velit. Integer erat enim, cursus vel suscipit rutrum, dictum quis nisl.</p>
-                </li>
-                <li>
-                    <h3 class="companyname">MASTERS DEGREE</h3>
-                    <p class="date">//Sept 1994 - Dec 1996</p>
-                    <p class="bold">University Name</p>
-                    <p class="unbold">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam aliquet, ante in semper gravida, nisl dui lobortis eros, eu sagittis urna tellus et arcu. Praesent sed viverra velit. Integer erat enim, cursus vel suscipit rutrum, dictum quis nisl.</p>
-                </li>
-                <li>
-                    <h3 class="companyname">BACHELORS DEGREE</h3>
-                    <p class="date">//Sept 1990 - Jun 1994</p>
-                    <p class="bold">University Name</p>
-                    <p class="unbold"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam aliquet, ante in semper gravida, nisl dui lobortis eros, eu sagittis urna tellus et arcu. Praesent sed viverra velit. Integer erat enim, cursus vel suscipit rutrum, dictum quis nisl.</p>
-                </li>
-            </ul>
-        </section>
-
-        <section id="experienceinfoicon">
-            <h2>EXPERIENCE</h2>
-            <ul class="listcircle">
-                <li>
-                    <h3 class="companyname">COMPANY NAME</h3>
-                    <p class="date">//Nov 2006 - Present</p>
-                    <p class="bold">YOUR JOB HERE</p>
-                    <p class="unbold">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam aliquet, ante in semper gravida, nisl dui lobortis eros, eu sagittis urna tellus et arcu. Praesent sed viverra velit. Integer erat enim, cursus vel suscipit rutrum, dictum quis nisl.</p>
-                </li>
-                <li>
-                    <h3 class="companyname">COMPANY NAME</h3>
-                    <p class="date">//Apr 2001 - Oct 2006</p>
-                    <p class="bold">YOUR JOB HERE</p>
-                    <p class="unbold"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam aliquet, ante in semper gravida, nisl dui lobortis eros, eu sagittis urna tellus et arcu. Praesent sed viverra velit. Integer erat enim, cursus vel suscipit rutrum, dictum quis nisl.</p>
-                </li>
-                <li>
-                    <h3 class="companyname">COMPANY NAME </h3>
-                    <p class="date">//Jul 1997 - Mar 2001</p>
-                    <p class="bold">YOUR JOB HERE</p>
-                    <p class="unbold">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam aliquet, ante in semper gravida, nisl dui lobortis eros, eu sagittis urna tellus et arcu. Praesent sed viverra velit. Integer erat enim, cursus vel suscipit rutrum, dictum quis nisl.</p>
-                </li>
-            </ul>
-        </section>
-
-        <section id="softwareinfoicon">
-        	
-            <h2>SOFTWARE</h2>
-
-	        <p class="softwareprogress"><strong>Photoshop/Illustrator</strong></p>
-	        <ul class="softwarebullet">
-                <li>
-                    <div class="softwarewrap">
-                        <div class="photoshopillustrator">
-                            <span class="photoshopillustratorfill"></span>
-                        </div>
-                    </div>
-                </li>
-            </ul>
-		        
-
-			<p class="softwareprogress"><strong>Dreamweaver</strong></p>
-		    <ul class="softwarebullet">
-		    	<li>
-		    		<div class="softwarewrap">
-		    			<div class="dreamweaver">
-		        			<span class="dreamweaverfill"></span>
-		      			</div>
-		    		</div>
-		    	</li>
-		    </ul>
-
-		    <p class="softwareprogress"><strong>HTML &amp; CSS</strong></p>
-		    <ul class="softwarebullet">
-		    	<li>
-					<div class="softwarewrap">
-						<div class="htmlcss">
-							<span class="htmlcssfill"></span>
-						</div>
-					</div>
-				</li>
-			</ul>
-
-		    <p class="softwareprogress"><strong>Javascript/Angular/Node</strong></p>
-		    <ul class="softwarebullet">
-		    	<li>
-		    		<div class="softwarewrap">
-		    			<div class="javascriptangularnode">
-		        			<span class="javascriptangularnodefill"></span>
-		        		</div>
-		    		</div>
-		    	</li>
-		    </ul>
-		    
-
-        </section>
-    </article>
-</body>
-
+        <p>feel free to grab a copy of my <a href="Michell_Brito.pdf" target="_blank"><mark>resume</mark></a></p>
+        <h2>Projects</h2>
+        <p><a href="https://github.com/michellbrito/bloodbank" target="_blank">Blood Bank</a></p>
+        <p><a href="https://github.com/michellbrito/Python-Projects-Outside-School/blob/master/Weather%20Texter.py" target="_blank">Weather Alert</a></p>
+        <p><a href="https://github.com/michellbrito/Project-STEM-DIV-" target="_blank">Project STEM DIV</a></p>
+        
+      </div>
+    </div>
+  </body>
 </html>
