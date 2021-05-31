@@ -2,64 +2,47 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta name="description" content="Michell Brito's personal website">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.4.1/css/all.css"
-      integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="./style/main.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="./assets/style/main.css" />
     <title>Michell Brito</title>
   </head>
   <body>
-    <div class="grid-2">
-      <div class="section-1">
-        <div class="circular--landscape">
-          <img src="images/me.jpg" />
-        </div>
-        <h2>Michell Brito</h2>
-        <a href="https://github.com/michellbrito" target="_blank"
-          ><i class="fab fa-github"></i
-        ></a>
-        <a href="https://www.linkedin.com/in/michell-brito/" target="_blank"
-          ><i class="fab fa-linkedin"></i
-        ></a>
-        <a href="https://twitter.com/michelldbrito" target="_blank"
-          ><i class="fab fa-twitter"></i
-        ></a>
-        <a href="https://medium.com/@michellbrito" target="_blank">
-          <i class="fab fa-medium"></i
-        ></a>
-        <a href="mailto:michellbp@msn.com" target="_blank"
-          ><i class="far fa-envelope"></i
-        ></a>
-      </div>
-      <div class="section-2">
-        <h2><span>👋</span> Hi, welcome to my site</h2>
-        <p>
-          <span>📚</span>I'm currentely studying <mark>computer science</mark> at Texas A&M University.<br>
-          <span>👩‍💻</span>Previosuly I've interned at <mark>Adobe</mark>, and <mark>Meredith</mark> as a software enginner.<br>
-          <span>🤍</span>Looking for <mark>software enginnering internships</mark> where I can push code into production and make an impact.
-        </p>
-        <h2>Skills</h2>
-        <p>I have experience in the following programming languages</p>
-        <ul class="fa-ul">
-          <li><i class="fa-li fab fa-js-square"></i>JavaScript (nodejs, reactjs)</li>
-          <li><i class="fa-li fab fa-python"></i>Python</li>
-          <li><i class="fa-li fas fa-database"></i>SQL (mysql, firebase)</li>
-          <li><i class="fa-li fab fa-html5"></i>HTML</li>
-          <li><i class="fa-li fab fa-css3-alt"></i>CSS</li>
-        </ul>
+    <main>
+      <!-- Hero -->
+      <section>
+        <img src="./assets/images/me.jpg" alt="Michell's profile picture" />
+      </section>
 
-        <p>feel free to grab a copy of my <a href="Michell_Brito.pdf" target="_blank"><mark>resume</mark></a></p>
-        <h2>Projects</h2>
-        <p><a href="https://github.com/michellbrito/bloodbank" target="_blank">Blood Bank</a></p>
-        <p><a href="https://github.com/michellbrito/Python-Projects-Outside-School/blob/master/Weather%20Texter.py" target="_blank">Weather Alert</a></p>
-        <p><a href="https://github.com/michellbrito/Project-STEM-DIV-" target="_blank">Project STEM DIV</a></p>
-        
-      </div>
-    </div>
+      <!-- Bio -->
+      <section>
+        <h1> <span>👋</span> Hi! I'm Michell.</h1>
+        <p>Full-Stack Developer &nbsp;<mark><a href="https://www.adobe.com/" target="_blank" rel="noopener">@Adobe</a></mark></p>
+        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="svg-filters" style="display:none;">
+            <defs>
+              <filter id="marker-shape">
+                <feTurbulence type="fractalNoise" baseFrequency="0 0.15" numOctaves="1" result="warp" />
+                <feDisplacementMap xChannelSelector="R" yChannelSelector="G" scale="30" in="SourceGraphic" in2="warp" />
+              </filter>
+            </defs>
+          </svg>
+      </section>
+
+      <!-- Socials -->
+      <section>
+        <table class="table social">
+          <tbody>
+              <tr>
+                  <td><a href="https://github.com/michellbrito" target="_blank" rel="noopener"><i class="fab fa-github fa-4x"></i></a></td>
+                  <td><a href="https://www.linkedin.com/in/michell-brito/" target="_blank" rel="noopener"><i class="fab fa-linkedin fa-4x"></i></a></td>
+                  <td><a href="https://twitter.com/michelldbrito" target="_blank" rel="noopener"><i class="fab fa-twitter fa-4x"></i></a></td>
+                  <td><a href="https://medium.com/@michellbrito" target="_blank" rel="noopener"><i class="fab fa-medium fa-4x"></i></a></td>
+              </tr>
+          </tbody>
+        </table>
+      </section>
+    </main>
   </body>
 </html>

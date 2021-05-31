@@ -1,0 +1,122 @@
+@font-face {
+  font-family: "cpro";
+  src: url("../fonts/cr.woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "cpro";
+  src: url("../fonts/cm.woff");
+  font-weight: 500;
+  font-style: normal;
+}
+
+:root {
+  --bg-color: #f9f4ef;
+  --text-color: #020826;
+  --font-family: Oswald, Noto-Serif;
+}
+
+body {
+  margin-top: 5rem;
+  text-align: center;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: var(--font-family);
+  line-height: 1.8;
+  font-weight: 400;
+  font-family: "cpro", Monaco, monospace;
+}
+
+a,
+a:link,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+#lightblub {
+  position:absolute;
+  top:1rem;
+  right:2rem;
+}
+
+#lightblub:hover{
+  cursor: pointer;
+}
+
+
+#work {
+  background-color: #8c7851;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+p {
+  font-size: 1.3rem;
+}
+
+img {
+  border-radius: 50%;
+  width: 12rem;
+  height: 12rem;
+  object-fit: cover;
+}
+
+.table {
+  width: 100%;
+  background-color: transparent;
+}
+
+td {
+  border: 1px solid #ddd;
+  padding: 1rem;
+}
+
+.social {
+  max-width: 400px;
+  margin: 0 auto;
+  table-layout: fixed;
+}
+
+.social a {
+  color: inherit;
+}
+
+.social a:hover {
+  color: #3f51b5;
+  text-decoration: none;
+}
+
+.social p {
+  padding-top: 6px;
+}
+
+mark {
+  margin: 0 -0.4em;
+  padding: 0.1em 0.4em;
+  border-radius: 0.8em 0.3em;
+  background: transparent;
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 225, 0, 0.1),
+    rgba(255, 225, 0, 0.7) 4%,
+    rgba(255, 225, 0, 0.3)
+  );
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+}
+
+mark:hover{
+    background-image: linear-gradient(
+    to right,
+    rgba(255, 225, 0, 0.1),
+    rgba(43, 255, 0, 0.7) 4%,
+    rgba(43, 225, 0, 0.3)
+  );
+}
