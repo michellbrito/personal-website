@@ -38,17 +38,6 @@ a:active {
   color: var(--text-color);
 }
 
-#lightblub {
-  position:absolute;
-  top:1rem;
-  right:2rem;
-}
-
-#lightblub:hover{
-  cursor: pointer;
-}
-
-
 #work {
   background-color: #8c7851;
 }
@@ -110,13 +99,4 @@ mark {
   );
   -webkit-box-decoration-break: clone;
   box-decoration-break: clone;
-}
-
-mark:hover{
-    background-image: linear-gradient(
-    to right,
-    rgba(255, 225, 0, 0.1),
-    rgba(43, 255, 0, 0.7) 4%,
-    rgba(43, 225, 0, 0.3)
-  );
 }
