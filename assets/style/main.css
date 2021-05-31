@@ -78,7 +78,6 @@ td {
 }
 
 .social a:hover {
-  color: #3f51b5;
   text-decoration: none;
 }
 
@@ -99,4 +98,9 @@ mark {
   );
   -webkit-box-decoration-break: clone;
   box-decoration-break: clone;
+}
+
+td:hover {
+  background-color: var(--text-color);
+  color: white;
 }
