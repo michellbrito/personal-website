@@ -102,5 +102,5 @@ mark {
 
 td:hover {
   background-color: var(--text-color);
-  color: white;
+  color: var(--bg-color);
 }
