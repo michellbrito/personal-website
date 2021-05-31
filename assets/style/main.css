@@ -3,6 +3,8 @@
   src: url("../fonts/cr.woff");
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
+
 }
 
 @font-face {
@@ -10,6 +12,8 @@
   src: url("../fonts/cm.woff");
   font-weight: 500;
   font-style: normal;
+  font-display: swap;
+
 }
 
 :root {
