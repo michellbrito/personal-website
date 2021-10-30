@@ -4,7 +4,6 @@
   font-weight: normal;
   font-style: normal;
   font-display: swap;
-
 }
 
 @font-face {
@@ -13,7 +12,6 @@
   font-weight: 500;
   font-style: normal;
   font-display: swap;
-
 }
 
 :root {
@@ -61,14 +59,20 @@ img {
   object-fit: cover;
 }
 
-.table {
-  width: 100%;
-  background-color: transparent;
+.flex-container {
+  display: inline-flex;
 }
 
-td {
+.flex-item {
   border: 1px solid #ddd;
   padding: 1rem;
+  width: 63.5px;
+  margin-right: 2px;
+}
+
+.flex-item:hover {
+  background-color: var(--text-color);
+  color: var(--bg-color);
 }
 
 .social {
@@ -102,9 +106,4 @@ mark {
   );
   -webkit-box-decoration-break: clone;
   box-decoration-break: clone;
-}
-
-td:hover {
-  background-color: var(--text-color);
-  color: var(--bg-color);
 }
