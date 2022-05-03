@@ -20,6 +20,25 @@
   --font-family: Oswald, Noto-Serif;
 }
 
+@keyframes wave-animation {
+  10%,
+  30% {
+    transform: rotate(-10deg);
+  }
+
+  20% {
+    transform: rotate(12deg);
+  }
+
+  40% {
+    transform: rotate(9deg);
+  }
+
+  50% {
+    transform: rotate(0deg);
+  }
+}
+
 body {
   margin-top: 5rem;
   text-align: center;
@@ -106,4 +125,12 @@ mark {
   );
   -webkit-box-decoration-break: clone;
   box-decoration-break: clone;
+}
+
+#wave {
+  animation-name: wave-animation;
+  animation-duration: 2.5s;
+  animation-iteration-count: infinite;
+  transform-origin: 70% 70%;
+  display: inline-block;
 }
