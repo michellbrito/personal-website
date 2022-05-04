@@ -91,6 +91,10 @@ img {
 
 .flex-item:hover {
   background-color: var(--text-color);
+  cursor: pointer;
+}
+
+.flex-item:hover a {
   color: var(--bg-color);
 }
 
@@ -98,10 +102,6 @@ img {
   max-width: 400px;
   margin: 0 auto;
   table-layout: fixed;
-}
-
-.social a {
-  color: inherit;
 }
 
 .social a:hover {
