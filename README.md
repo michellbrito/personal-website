@@ -1,3 +1,3 @@
-# portfolio-website-
+# Personal Website
 
-You can view a live version here: <https://michellbrito.github.io/PortfolioWebsite/>
+You can view a live version here: [www.michellbrito.com/](http://www.michellbrito.com/)
