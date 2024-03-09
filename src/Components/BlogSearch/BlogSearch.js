@@ -1,17 +1,19 @@
+import styles from './BlogSearch.module.css';
+
 function BlogSearch() {
   return (
-    <section className="blog-search-section">
+    <section className={styles.root}>
       <i className="fas fa-search search-icon"></i>
       <input
-        className="blog-search-input"
+        className={styles.searchInput}
         type="text"
         placeholder="Search"
       ></input>
-      <button className="blog-search-filter-btn">
+      <button className={styles.filterBtn}>
         <i className="fas fa-sort-amount-up fa-1x"></i>
         Ascending
       </button>
-      <button className="blog-search-filter-btn">
+      <button className={styles.filterBtn}>
         <i className="fas fa-sort-amount-down fa-1x"></i>
         Descending
       </button>

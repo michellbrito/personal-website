@@ -1,0 +1,30 @@
+.root {
+  align-self: flex-start;
+  position: sticky;
+  top: 20vh;
+}
+
+.root h3 {
+  margin-top: 25px;
+}
+
+.head2 {
+  margin-left: 20px;
+  list-style-type: circle;
+}
+
+.head3 {
+  margin-left: 40px;
+  list-style-type: square;
+}
+
+.root a:hover {
+  text-decoration: none;
+  color: var(--light-color);
+}
+
+@media screen and (max-width: 700px) {
+  .root {
+    display: none;
+  }
+}
