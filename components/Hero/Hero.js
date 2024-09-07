@@ -1,24 +1,25 @@
 import styles from './Hero.module.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGithub, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons';
+import { faGithub, faLinkedin, faXTwitter, faYoutubeSquare } from '@fortawesome/free-brands-svg-icons';
 
 function Hero() {
   return (
     <section className={styles.root}>
       <section className={styles.aboutSection}>
         <h1 className={styles.greeting}>
-          <span className={styles.wave}>👋</span>Michell Brito
+          Greetings <span className={styles.wave}>👋</span>
         </h1>
-        <p className={styles.info}>Software Development Engineer @Adobe with 2+ years of experience</p>
+        <p className={styles.info}>I&apos;m Michell Brito, a Software Engineer with 3+ years of experience</p>
+        <p className={styles.info}>Current Role: Software Development Engineer <a className={styles.link} href="https://x.com/adobe" target='_blank' rel="noreferrer">@Adobe</a></p>
         <p className={styles.info}>
-          Running sites such as{' '}
+          Passionate about building and managing websites, I&apos;ve created platforms like {' '}
           <a
             className={styles.link}
             href="https://csstrivia.com/"
             target="_blank"
             rel="noreferrer"
           >
-            csstrivia.com
+            csstrivia
           </a>
           ,{' '}
           <a
@@ -27,7 +28,7 @@ function Hero() {
             target="_blank"
             rel="noreferrer"
           >
-            buildfullstack.com
+            buildfullstack
           </a>
           ,{' '}
           <a
@@ -36,7 +37,7 @@ function Hero() {
             target="_blank"
             rel="noreferrer"
           >
-            countryclubpools.com
+            countryclubpools
           </a>
           , and{' '}
           <a
@@ -45,7 +46,7 @@ function Hero() {
             target="_blank"
             rel="noreferrer"
           >
-            websiteleads.com
+            websiteleads
           </a>
         </p>
         <section className={styles.socialIconsSection}>
@@ -68,14 +69,22 @@ function Hero() {
             <FontAwesomeIcon icon={faLinkedin} />
           </a>
           <a
-            href="https://twitter.com/michelldbrito"
+            href="https://www.youtube.com/@michelldbrito"
             target="_blank"
             rel="noopener noreferrer"
-            aria-label="Twitter Logo"
+            aria-label="youtube Logo"
             className={styles.socialIcon}
           >
-            <FontAwesomeIcon icon={faTwitter} />
-
+            <FontAwesomeIcon icon={faYoutubeSquare} />
+          </a>
+          <a
+            href="https://x.com/michelldbrito"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="x Logo"
+            className={styles.socialIcon}
+          >
+            <FontAwesomeIcon icon={faXTwitter} />
           </a>
         </section>
       </section>
@@ -83,5 +92,4 @@ function Hero() {
     </section>
   );
 }
-
 export default Hero;
