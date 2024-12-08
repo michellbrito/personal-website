@@ -7,9 +7,9 @@ function BlogGrid({ blogs }) {
     <section className={styles.root}>
       {blogs.length > 0 && (
         <>
-          {blogs.map(({ title, publishedDate, slug }) => (
+          {blogs.map(({ title, publishedDate, slug, tags }) => (
             <Link href={`${slug}`} key={slug} className={styles.link}>
-              <BlogCard title={title} publishedDate={publishedDate} />
+              <BlogCard title={title} publishedDate={publishedDate} tags={tags} />
             </Link>
           ))}
         </>
