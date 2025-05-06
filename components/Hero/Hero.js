@@ -9,46 +9,9 @@ function Hero() {
         <h1 className={styles.greeting}>
           Greetings <span className={styles.wave}>👋</span>
         </h1>
-        <p className={styles.info}>I&apos;m Michell Brito, a Software Engineer with 3+ years of experience</p>
-        <p className={styles.info}>Current Role: Software Development Engineer <a className={styles.link} href="https://x.com/adobe" target='_blank' rel="noreferrer">@Adobe</a></p>
-        <p className={styles.info}>
-          Passionate about building and managing websites, I&apos;ve created platforms like {' '}
-          <a
-            className={styles.link}
-            href="https://csstrivia.com/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            csstrivia
-          </a>
-          ,{' '}
-          <a
-            className={styles.link}
-            href="https://buildfullstack.com/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            buildfullstack
-          </a>
-          ,{' '}
-          <a
-            className={styles.link}
-            href="https://countryclubpools.com/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            countryclubpools
-          </a>
-          , and{' '}
-          <a
-            className={styles.link}
-            href="https://websiteleads.com/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            websiteleads
-          </a>
-        </p>
+        <p className={styles.info}>I&apos;m Michell Brito, a Software Engineer with 4+ years of experience</p>
+        <p className={styles.info}>Current Role: Software Development Engineer <a className={styles.link} href="https://x.com/adobe" target="_blank" rel="noreferrer">@Adobe</a></p>
+        <p className={styles.info}>Building <a className={styles.link} href="https://golfmini.com" target="_blank">GolfMini.com</a> - a niche directory that brings in 2.5k+ monthly visitors and ranks for 700+ high-intent keywords on Google</p>
         <section className={styles.socialIconsSection}>
           <a
             href="https://github.com/michellbrito"
