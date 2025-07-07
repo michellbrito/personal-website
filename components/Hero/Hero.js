@@ -10,8 +10,8 @@ function Hero() {
           Greetings <span className={styles.wave}>👋</span>
         </h1>
         <p className={styles.info}>I&apos;m Michell Brito, a Software Engineer with 4+ years of experience</p>
-        <p className={styles.info}>Current Role: Software Development Engineer <a className={styles.link} href="https://x.com/adobe" target="_blank" rel="noreferrer">@Adobe</a></p>
-        <p className={styles.info}>Building <a className={styles.link} href="https://golfmini.com" target="_blank">GolfMini.com</a> - a niche directory that brings in 2.5k+ monthly visitors and ranks for 700+ high-intent keywords on Google</p>
+        <p className={styles.info}>Currently, I work as a Software Development Engineer <a className={styles.link} href="https://x.com/adobe" target="_blank" rel="noreferrer">@Adobe</a></p>
+        <p className={styles.info}>On the side, I&apos;m building <a className={styles.link} href="https://golfmini.com" target="_blank">GolfMini.com</a> a niche directory that attracts more than 10k monthly visitors and ranks for over 700 keywords</p>
         <section className={styles.socialIconsSection}>
           <a
             href="https://github.com/michellbrito"
