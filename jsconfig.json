@@ -3,7 +3,7 @@
     "paths": {
       "@/*": ["./*"],
       "@components/*": ["./components/*"],
-      "@utils": ["./utils/index.js"],
+      "@utils": ["./utils/index.js"]
     }
   }
 }

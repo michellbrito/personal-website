@@ -1,6 +1,11 @@
-import styles from './Hero.module.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGithub, faLinkedin, faXTwitter, faYoutubeSquare } from '@fortawesome/free-brands-svg-icons';
+import styles from "./Hero.module.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faGithub,
+  faLinkedin,
+  faXTwitter,
+  faYoutubeSquare,
+} from "@fortawesome/free-brands-svg-icons";
 
 function Hero() {
   return (
@@ -9,9 +14,17 @@ function Hero() {
         <h1 className={styles.greeting}>
           Greetings <span className={styles.wave}>👋</span>
         </h1>
-        <p className={styles.info}>I&apos;m Michell Brito, a Software Engineer with 4+ years of experience</p>
-        <p className={styles.info}>Currently, I work as a Software Development Engineer <a className={styles.link} href="https://x.com/adobe" target="_blank" rel="noreferrer">@Adobe</a></p>
-        <p className={styles.info}>On the side, I&apos;m building <a className={styles.link} href="https://golfmini.com" target="_blank">GolfMini.com</a> a niche directory that attracts more than 10k monthly visitors and ranks for over 700 keywords</p>
+        <p className={styles.info}>
+          I&apos;m Michell Brito, a Software Engineer with 4+ years of
+          experience.
+        </p>
+        <p className={styles.info}>
+          I work as a Software Development Engineer at Adobe, where I ship
+          features used by millions of users and collaborate closely with design
+          and product teams. Outside of work, I build and scale independent web
+          products, focusing on scalable architecture, user engagement, and
+          organic growth through SEO.
+        </p>
         <section className={styles.socialIconsSection}>
           <a
             href="https://github.com/michellbrito"

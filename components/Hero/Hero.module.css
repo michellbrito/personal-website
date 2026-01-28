@@ -59,6 +59,11 @@
   width: 38px;
 }
 
+.socialIcon svg {
+  width: 100%;
+  height: 100%;
+}
+
 .socialIcon:hover {
   color: var(--light-color);
 }
