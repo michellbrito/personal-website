@@ -1,11 +1,6 @@
-import styles from './Blog.module.css';
+import styles from "./Blog.module.css";
 
-async function Blog({
-  title,
-  publishedDate,
-  readingTime,
-  children,
-}) {
+async function Blog({ title, publishedDate, readingTime, children }) {
   return (
     <article className={styles.root}>
       <section className={styles.hero}>

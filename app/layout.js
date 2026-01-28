@@ -1,17 +1,22 @@
 import "./reset.css";
 import "./globals.css";
 import "./github-markdown-dark.css";
-import Script from 'next/script';
+import Script from "next/script";
 
 export const metadata = {
   title: "Michell Brito",
-  description: "Welcome to my personal website. Discover my blog, and latest projects. Connect with me and explore my journey in software engineering",
+  description:
+    "Welcome to my personal website. Discover my blog, and latest projects. Connect with me and explore my journey in software engineering",
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <Script id="clarity-script" strategy="afterInteractive" type="text/javascript">
+      <Script
+        id="clarity-script"
+        strategy="afterInteractive"
+        type="text/javascript"
+      >
         {`
           (function(c,l,a,r,i,t,y){
               c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
