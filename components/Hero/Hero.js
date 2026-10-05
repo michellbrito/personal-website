@@ -15,7 +15,7 @@ function Hero() {
           Greetings <span className={styles.wave}>👋</span>
         </h1>
         <p className={styles.info}>
-          I&apos;m Michell Brito, a Software Engineer with <span className={styles.light}>4+ years</span> of
+          I&apos;m Michell Brito, a Software Engineer with <span className={styles.light}>5+ years</span> of
           experience.
         </p>
         <p className={styles.info}>
@@ -25,7 +25,7 @@ function Hero() {
           product teams.
         </p>
         <p className={styles.info}>
-          Outside of work, I build and scale independent web products, focusing
+          Outside of work, I build web products focusing
           on scalable architecture, user engagement, and organic growth through
           SEO.
         </p>

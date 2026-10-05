@@ -13,7 +13,7 @@ const projects = [
     description:
       "An interactive content platform for coloring pages where users can like, save, and download pages.",
     url: "https://printedcoloringpages.com/",
-    tags: ["Active"],
+    tags: ["Archived"],
   },
   {
     title: "GolfMini",
